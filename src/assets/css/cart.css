@@ -1,0 +1,146 @@
+#app{
+    width: 100%;
+}
+
+.el-button--danger {
+    background-color: crimson !important;
+}
+
+.el-message--error {
+    background-color: #fff;
+    color: crimson !important;
+    border-color: crimson !important;
+}
+
+.el-message{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.el-button--success{
+    background-color: #006400!important;
+}
+
+.el-cascader-menu__item.is-active{
+    color: #f63 !important;
+}
+
+.el-cascader .el-input__inner:focus,
+.el-cascader:hover .el-input__inner{
+    border-color: #f63;
+}
+
+
+.el-cascader .el-input__inner{
+    border-radius: 2px;
+    height: 33px;
+    line-height: 33px;
+}
+
+.progress-block > div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.el-notification__title {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.el-notification__content {
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+}
+
+.el-notification__content .value {
+    color: #f63;
+}
+
+.el-notification__group {
+    margin-right: 8px;
+}
+
+.add_to_basket_by_code-countBlock .el-button--primary.el-button--small:disabled{
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.add_to_basket_by_code-countBlock .el-button--primary.el-button--small:disabled:hover{
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.add_to_basket_by_code-countBlock .el-button--primary.el-button--small{
+    margin-left: 8px;
+    background-color: #f63;
+    border-color: #f63;
+}
+
+.add_to_basket_by_code-countBlock .el-button--primary.el-button--small:hover{
+    background-color: #222;
+    border-color: #222;
+}
+
+input:active, input:focus,
+button:active, button:focus{
+    outline: none !important;
+}
+
+
+.bottom-controls a{
+    transition: background-color 0.5s, border-color 0.5s;
+}
+
+.bottom-controls a:hover{
+    background-color: #222 !important;
+    border-color: #222 !important;
+}
+
+.bottom-controls
+.el-button--primary{
+    background-color: #f63;
+    border-color: #f63;
+}
+
+.cart_el-controls_del .el-button--danger{
+    background-color: #ccc !important;
+}
+
+.list-top .el-button--danger,
+.list-top .el-button--success{
+    background-color: transparent !important;
+    color: #333;
+    padding: 6px;
+    border: none;
+}
+
+.list-top .el-button--success:hover {
+    color: #006400;
+}
+
+.list-top .el-button--danger:hover {
+    color: crimson;
+}
+
+.oringText{
+    color: #f63 !important;
+}
+
+.add_to_basket_result .el-button--danger,
+.add_to_basket_result .el-button--success{
+    border: none;
+    color: #ccc;
+    font-size: 17px;
+    padding: 0;
+    background-color: #fff !important;
+}
+
+.add_to_basket_result .el-button--danger:hover{
+    color: crimson !important;
+}
+
+.add_to_basket_result .el-button--success:hover{
+    color: #006400!important;
+}
